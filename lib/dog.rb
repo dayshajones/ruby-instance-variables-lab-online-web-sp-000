@@ -1,5 +1,10 @@
 class Dog
   
-  attr_accessible :name
+  def name
+    @name = name
+  end
+  
+  def name=
+    
   
 end
